@@ -13,7 +13,7 @@ const puppeteer = require('puppeteer');
       await page.click('#btnLogon');
       await page.waitForNavigation();
       if(page.url()==url1){
-      //��תʧ��
+      //Ìø×ªÊ§°Ü
       console.log('fail: ID or Password error');
       }
       else{
